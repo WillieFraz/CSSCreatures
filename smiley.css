@@ -1,0 +1,198 @@
+body {
+    background-image: url(https://64.media.tumblr.com/5bd5d9df2e97a0105f6a6ad6ec8fd102/tumblr_p6y9x1z5k21uft7iwo1_1280.png)
+}
+
+.wrapper {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+#leftear {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid darkorchid;
+    background-color: black;
+    border-radius: 100px 25px;
+    z-index: -1;
+    top: 90px;
+    left: 20px;
+    transform: rotate(120deg);
+}
+
+#rightear {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid darkorchid;
+    background-color: black;
+    border-radius: 100px 25px;
+    z-index: -1x;
+    top: 40px;
+    left: 290px;
+    transform: rotate(145deg);
+
+}
+
+.head {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: solid 2px darkorchid;
+    background-color: black;
+    border-radius: 100px;
+    z-index:1;
+}
+
+.righteye {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+    border: solid 5px gray;
+    top: -35px;
+    left: 200px;
+    background-color: darkorchid;
+    border-radius: 100px 40px;
+}
+
+.lefteye {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+    border: solid 5px gray;
+    top: 90px;
+    left: 40px;
+    background-color: darkorchid;
+    border-radius: 40px 100px;
+}
+
+.body {
+    height: 400px;
+    width: 340px;
+    position: relative;
+    border: solid 2px darkorchid;
+    background-color: black;
+    z-index:0;
+    top: 90px;
+    left: 10px;
+    border: 50px 50px 0px 0px;
+}
+
+#top-v-left {
+    height:110px ;
+    width: 0px;
+    position: relative;
+    z-index: 2;
+    border-left: 30px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 80px solid gray;
+    background-color: gray;
+    transform: rotate(120deg);
+    top:-30px;
+    left:80px;
+    
+}
+
+#top-v-right {
+    height: 110px;
+    width: 0px;
+    position: relative;
+    z-index: 2;
+    border-left: 30px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 80px solid gray;
+    background-color: gray;
+    transform: rotate(60deg);
+    top: -220px;
+    left: 225px;
+}
+
+.left-arm{
+    position: relative;
+    height: 300px;
+    width: 80px;
+    top: -432px;
+    left: -120px;
+    border: solid 2px darkorchid;
+    background-color: black;
+    z-index: -1;
+    border-radius: 100px 100px 0 0;
+    transform: rotate(35deg);
+}
+
+#left-arm-slash {
+    position: relative;
+    height: 30px;
+    width: 75px;
+    border: 3px solid gray;
+    background-color: gray;
+    z-index: 2;
+    top: -550px;
+    left: -154px;
+    transform: rotate(35deg);
+}
+
+.right-arm {
+    position: relative;
+    height: 300px;
+    width: 80px;
+    top: -770px;
+    left: 380px;
+    border:  solid 2px darkorchid;
+    z-index: -1;
+    border-radius: 100px 100px 0 0;
+    background-color: black;
+    transform: rotate(-35deg);
+}
+
+#right-arm-slash {
+    position: relative;
+    height: 30px;
+    width: 75px;
+    border: 2px solid gray;
+    background-color: gray;
+    z-index: 2;
+    top: -875px;
+    left: 428px;
+    transform: rotate(145deg);
+    
+}
+
+.belt {
+    position: relative;
+    height: 30px;
+    width: 340px;
+    top: -11px;
+    border: solid 1px darkorchid;
+    background-color: gray;
+
+}
+
+.left-hand {
+    position: relative;
+    height: 60px;
+    width: 80px;
+    left: -215px;
+    top: -855px;
+    z-index: -2;
+    border: solid 2px darkorchid;
+    background-color: gray;
+    border-radius: 100px;
+    transform: rotate(40deg);
+}
+
+.right-hand {
+    position: relative;
+    height: 60px;
+    width: 80px;
+    left: 475px;
+    top: -915px;
+    z-index: -2;
+    border: solid 2px darkorchid;
+    background-color: gray;
+    border-radius: 100px;
+    transform: rotate(140deg);
+}
